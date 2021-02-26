@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(161, 100, 223);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  /* veritcally centered */
+  align-items: center;
+  /* horizonatally centered, needs to have height to work */
+  justify-content: center;
+  /* to get word in button to center */
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.btn {
+  background-color: rgba(12, 5, 5, 0.4);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.2rem;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+}
+
+.btn:focus {
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
